@@ -1,0 +1,39 @@
+.pageContact {
+  width: 930px;
+  margin: 0 auto;
+
+  form {
+    margin: 40px 0;
+
+    label,
+    legend {
+      display: block;
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+
+    input {
+      display: block;
+      margin: 0 0 20px;
+      padding: 10px 20px;
+      width: 50%;
+    }
+
+    fieldset {
+      margin-top: 20px;
+    }
+
+    input[type="submit"] {
+      margin-top: 2rem;
+      width: 40%;
+      padding: 15px 0;
+      background: #00ccff;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer
+    }
+  }
+}

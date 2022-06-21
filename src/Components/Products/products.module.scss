@@ -1,0 +1,26 @@
+.Container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+
+    margin: 0 1.5%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+    h2 {
+      text-align: center;
+    }
+
+    strong {
+      font-size: 22px;
+    }
+  }
+}

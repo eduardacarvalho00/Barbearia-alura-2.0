@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background: rgb(84, 163, 209);
+  height: 10rem;
+
+  img {
+    position: absolute;
+    width: 7rem;
+    padding-left: 20rem;
+  }
+
+  ul {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20rem;
+
+    li {
+      list-style: none;
+      display: flex;
+      padding: 1rem;
+      margin-top: 3.5rem;
+
+      a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.5s;
+
+        &:hover {
+          color: #00ccff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
